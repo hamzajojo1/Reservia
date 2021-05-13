@@ -1,0 +1,43 @@
+/*font de page*/
+*{
+   font-family: Raleway,Arial, Helvetica, sans-serif;
+}
+/*Navigation*/
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 5rem 0;
+   margin-top: -150px; 
+}
+.nav ul{
+   display: flex;
+   list-style: none;
+}
+.nav-link{
+padding: 6.3rem 3rem 0 3rem;
+border-top: 2px solid transparent;
+}
+.nav-link:hover{
+
+}
+.subscribe-link{
+   padding: 6.3rem 3rem 0 3rem;
+   border-top: 2px solid transparent;
+}
+.nav-link:hover{
+   
+}
+/*Case de recherche*/
+.search-button{
+   background-color: #0065FC;
+   border: 6px #0065FC solid;
+   border-radius: 0px 10px 10px 0px;
+  color: white;
+  font-weight: bold;
+}
+.accomodation{
+display: flex;
+background-color: #F2F2F2;
+}
