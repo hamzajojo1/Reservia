@@ -2,6 +2,10 @@
 *{
    font-family: Raleway,Arial, Helvetica, sans-serif;
 }
+.logo{
+   display: flex;
+   margin-top: 85px;
+}
 /*Navigation*/
 .nav{
    display: flex;
@@ -19,8 +23,8 @@
 padding: 6.3rem 3rem 0 3rem;
 border-top: 2px solid transparent;
 }
-.nav-link:hover{
-
+.nav-link a:hover{
+color: green;
 }
 .subscribe-link{
    padding: 6.3rem 3rem 0 3rem;
@@ -39,5 +43,19 @@ border-top: 2px solid transparent;
 }
 .accomodation{
 display: flex;
+justify-content: space-between;
 background-color: #F2F2F2;
+}
+.popularity{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+background-color: #F2F2F2;
+}
+.activities{
+   display: flex;
+   justify-content: space-between;
+}
+footer{
+   background-color: #F2F2F2;
 }
