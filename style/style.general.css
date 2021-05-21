@@ -4,7 +4,15 @@
 }
 .logo{
    display: flex;
-   margin-top: 85px;
+}
+a{
+text-decoration: none;
+color: black;
+cursor: pointer;
+font-size: 1.1rem;
+}
+::placeholder{
+color:black;
 }
 /*Navigation*/
 .nav{
@@ -12,68 +20,96 @@
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
-   padding: 5rem 0;
-   margin-top: -150px; 
 }
 .nav ul{
    display: flex;
    list-style: none;
 }
-.nav-link{
-padding: 6.3rem 3rem 0 3rem;
+.nav-link,
+.subscribe-link{
+padding: 2rem 3rem 0 3rem;
 border-top: 2px solid transparent;
 }
-.nav-link a:hover{
-color: green;
-}
-.subscribe-link{
-   padding: 6.3rem 3rem 0 3rem;
-   border-top: 2px solid transparent;
-}
 .nav-link:hover{
-   
+color: #0065FC;
+border-top: 2px solid #0065FC;
 }
-/*Case de recherche*/
-.search-button{
-   background-color: #0065FC;
-   border: 6px #0065FC solid;
-   border-radius: 0px 10px 10px 0px;
-  color: white;
-  font-weight: bold;
-}
-.accomodation-marseille{
+/*serche section*/
+.search-form{
 display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-border-color: #F2F2F2;
-border-radius: 20px;
-background-color: #F2F2F2;
-position: relative;
-margin: 20px 20px 20px 20px;
-}
-.popularity{
-display: flex;
-flex-direction: column;
+flex-flow: row nowrap;
 align-items: center;
-border-color: #F2F2F2;
-border-radius: 20px;
-margin: 20px 20px 20px 20px;
-background-color: #F2F2F2;
-width: 600px;
-position: relative;
-left: 950px;
+padding-bottom: 1.5rem;
 }
-.activities{
+.search-form i{
 display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-footer{
-background-color: #F2F2F2;
-}
-.about-footer{
-display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
-flex-wrap: wrap-reverse;
+font-size: 1rem;
+min-width: 3rem;
+min-height: 3rem;
+border-radius: 1rem 0 0 1rem;
+background-color: #F2F2F2;
+}
+.search-form input{
+height: 3rem;
+font-weight: bold;
+padding-left: 1rem;
+border-left: 0;
+border-right: 0;
+border-top: 0.1rem solid #F2F2F2;
+border-bottom: 0.1rem solid #F2F2F2;
+}
+.search-form input:focus{
+outline: 1px solid #F2F2F2;
+}
+.search-form button{
+padding: 0 1rem;
+height: 3rem;
+font-weight: bold;
+border:none;
+border-radius: 0 1rem 1rem 0;
+background-color: #0065FC;
+color: white;
+}
+/*filtres*/
+.filters{
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+padding-bottom: 1.5rem;
+}
+.filters h2{
+padding-right: 2rem;
+}
+.filters .filter-link{
+display: flex;
+flex-wrap: nowrap;
+padding: 0 2rem 0 0;
+border-radius: 3rem;
+border: 2px solid #F2F2F2;
+font-weight: bold;
+margin-right: 2.2rem;
+background-color: white;
+}
+.filters .filter-link:hover{
+background-color: #F2F2F2;
+}
+.filter-link i{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+color: #0065FC;
+background:#DEEBFF;
+}
+.filters button span{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 1.2rem;
+min-width: 3rem;
+height: 3rem;
 }
