@@ -125,9 +125,10 @@ a {
 	flex-basis: 60%;
 	border-radius: 1.5rem;
 }
-.titre-hebergement-marseille {
+/*.titre-hebergement-marseille {*/
 	font-size: 2rem;
 }
+/*anomalie*/
 .accomodation-cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
