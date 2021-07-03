@@ -1,6 +1,56 @@
+@charset "UTF8"
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /*font*/
-*{
-	font-family:raleway Arial, Helvetica, sans-serif;
+body{
+	font-family: 'Raleway', sans-serif;
 }
 ul{
 	list-style: none;
@@ -122,7 +172,8 @@ a {
 	padding-bottom:2rem;
 }
 .icon{
-	border: 1px solid #421bd1;
+	color: #0065fc;
+	border:2px solid #f2f2f2;
 	border-radius: 50%;
 	padding: 5px 10px 5px 10px;
 	margin-right: 8px;
@@ -137,35 +188,37 @@ a {
 /*accomodation-marseille section*/
 .accomodation-marseille{
 	background: #f2f2f2;
-	border-radius: 1.5rem;
+	border-radius: 15px;
 	width: 61%;
+	
 }
-/*anomalie*/
+.title-accomodation{
+	padding-bottom: 30px;
+}
+
 .accomodation-cards{
 	display: flex;
 	flex-wrap: wrap;
-	width: 61%;
+	justify-content: space-around;
+	
 }
-.accomodation-card-item a {
+.accomodation-card-item{
 	display: flex;
 	flex-direction: column;
-	border-radius: 1.5rem;
 	box-shadow: 0px 0px 10px #a1a1a1;
 	background: white;
-	min-height: 100%;
-	padding: 0.5rem 0.5rem 1rem 0.5rem;
+	border-radius: 15px;
+	width: 250px;
+	height: 210px;
+	padding: 5px 5px 0 5px;
 }
-.accomodation-card-item img {
-	border-radius: 1.5rem 1.5rem 0 0;
-	height: 11.4rem;
-	object-fit: cover;
+.accomodation-card-item img{
+	border-radius: 15px 15px 0 0;
+	max-height: 30%;
+	width: 248px;
 }
-.accomodation-card-item-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	min-height: 90px;
-	padding: 10px 0 0 15px;
+.accomodation-card-item-sub-content{
+
 }
 .rating {
 	color: #b1b1b1;
@@ -173,12 +226,10 @@ a {
 .fa-star--activate {
 	color: #0065fc;
 }
-.afficher-plus {
-	font-weight: bold;
-	font-size: 1.8rem;
-	background: none;
+.show-more{
 	border: none;
-	padding: 4rem 2rem 4rem 3.5rem;
+	background: none;
+	font-weight: bold;
 }
 /*popularity-section*/
 .popularity{
@@ -186,40 +237,58 @@ a {
 	justify-content: flex-end;
 	background: #f2f2f2;
 	width: 30%;
-	border-radius: 1.5rem;
+	border-radius: 15px;
+	
 }
-.popularity-title {
+.popularity-header{
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-	font-size: 2rem;
-	padding: 3rem 4.5rem 2rem 3rem;
 }
 .popularity-cards{
-
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
 }
 .popularity-card-item{
-
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+	box-shadow: 0px 0px 10px var(--shadow);
+	border-radius: 15px;
+	background: white;
+	height: 152px;
+	width: 345px;
+	padding: 5px;
 }
+.popularity-card-item img{
+	max-width: 35%;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 1.5rem 0 0 1.5rem;
+  }
 .popularity-card-item-content{
 
 }
-.activities{
+/*Activités*/
+#activities{
 	display: flex;
-	flex-wrap: wrap;
-	width: 1340px;
+}
+
+.activities h2{
 }
 .activities-cards{
-
+	display: flex;
+	flex-wrap: wrap;
 }
 .activties-card-item{
-
+display: flex;
+flex-direction: column;
 }
 .footer{
 	display: flex;
   	justify-content: flex-start;
-	  align-items: center;
-	  color: black;
+	align-items: center;
+	color: black;
   	margin: 0;
 	background: #f2f2f2;
   	margin-top: 60px;
