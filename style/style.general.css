@@ -76,6 +76,11 @@ img{
 h3{
 	font-weight: 700;
 }
+
+.container{
+
+	margin: 0 auto;
+}
 /*Navigation*/
 .nav {
 	display: flex;
@@ -211,9 +216,9 @@ h3{
 	
 }
 .title-accomodation{
-	margin-left: 40px;
+	padding-left: 40px;
 	padding-bottom: 30px;
-	margin-top: 45px;
+	padding-top: 45px;
 	font-weight: 700;
 }
 
@@ -316,22 +321,29 @@ h3{
 	margin-top: 60px;
 	margin-bottom: 30px;
 }
+.activities h3{
+	padding-bottom: 20px;
+	padding-left: 19px;
+}
 .activities-cards{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .activities-cards img{
-	margin-bottom: 25px;
-
+	padding-bottom: 20px;
 }
 .activities-card-item{
 display: flex;
 flex-direction: column;
 width: 305px;
+background-color: #fff;
 border-radius: 15px 15px 15px 15px;
+box-shadow: 0px 0px 1px #a1a1a1;
 }
-
+.item2{
+	margin-bottom: 42px;
+}
 .card-img-1{
 	border-radius: 15px 15px 0 0;
 	height: 390px;
@@ -342,7 +354,7 @@ border-radius: 15px 15px 15px 15px;
 }
 .card-img-3{
 	border-radius: 15px 15px 0 0;
-	height: 138px;
+	height: 108px;
 }
 .card-img-4{
 	border-radius: 15px 15px 0 0;
@@ -350,7 +362,7 @@ border-radius: 15px 15px 15px 15px;
 }
 .card-img-5{
 	border-radius: 15px 15px 0 0;
-	height: 150px;
+	height: 140px;
 }
 
 /*footer*/
