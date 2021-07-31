@@ -51,7 +51,7 @@ table {
 body{
 	font-family: 'Raleway', sans-serif;
 }
-{
+header,.activities,{
 	width: 1340px;
 	margin: 0 auto;
 }
@@ -77,10 +77,6 @@ h3{
 	font-weight: 700;
 }
 
-.container{
-
-	margin: 0 auto;
-}
 /*Navigation*/
 .nav {
 	display: flex;
