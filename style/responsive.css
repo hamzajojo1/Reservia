@@ -1,10 +1,10 @@
 @media only screen and (max-width : 1024px) {
     .container{
-        max-width: 960px;
+        
     }
 
     #competences ul li{
-    width: 30%;
+    
     }
     
 }
@@ -15,7 +15,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     /*ipad pro 12 pouces*/
     .container{
-        max-width: 960px;
+        
     }
     #competences ul li{
     width: 30%;
@@ -24,12 +24,11 @@
 
 @media only screen and (max-width : 979px) {
     .container{
-        max-width: 768px;
+        
     }
 
     footer .container div{
-    padding-right: 20px;
-    padding-left: 20px;
+    
     }
 
 
@@ -40,19 +39,12 @@
     /*mobile paysage*/
 
     .container{
-        max-width: 700px;
+       
     }
 
-    nav ul li{
-    margin-left: 25px;
-    }
+   
 
-    #clients ul{
-        max-width: 100%;
-    }
-    #clients ul img{
-        max-width: 100%;
-    }
+    
 
 }
 
@@ -61,98 +53,17 @@
     /*mobile portrait*/
 
         .container{
-        max-width: 410px;
+    
         }
 
-        header{
-          align-items: flex-start;
-        }
-        nav ul{
-            flex-direction: column;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            padding: 25px;
-            align-items: flex-end;
-        }
-        nav .visible{
-            align-items: flex-end;
-            background: rgba(255, 255, 255, 0.8);
-            
-        }
-        nav .visible li{
-            display: block;
-        }
-        nav ul li{
-            margin-left: 0;
-            display: none;
-        }
-        .visible #burger{
-            padding-right: 0px;
-        }
-        #burger{
-            display: block;
-        }
-
-        h1{
-            font-size: 55px;
-            line-height: 50px;
-        }
-
-        .landing div{
-            padding-top: 180px;
-            padding-bottom: 180px;
-        }
-
-        #competences ul{
-            flex-wrap: wrap;
-        }
-        
-        #competences ul li{
-            width: 100%;
-        }
-        .btn{
-            margin-bottom: 15px;
-        }
-        .img_row{
-            flex-direction: column;
-        }
-        .img_row li{
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .img_row figcaption{
-            opacity: 1;
-        }
-
-        #clients ul{
-            flex-direction: column;
-        }
-        #clients ul li{
-            max-width: 100%;
-            border-bottom: 2px #f1f1f1 solid;
-            border-right: none;
-        }
-
-        #clients ul li:last-child{
-            border-bottom: none;
-        }
-
-        footer > div{
-            flex-direction: column;
-        }
-
-        footer .container div{
-            width: 100%;
-            margin-bottom: 30px;
-        }
+       
+     
 
 }
 
 @media only screen and (max-width : 400px) {
     .container{
-        max-width: 320px;
+        
     }
 
 }
