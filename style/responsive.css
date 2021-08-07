@@ -1,44 +1,32 @@
 @media only screen and (max-width : 1024px) {
-    .container{
-        
+    .footer-item{
+        margin-right: 0;
+    }
+    .accomodation-container{
+        flex-direction: column;
+    }
+    .accomodation-marseille{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px; 
+    }
+    .popularity{
+        width: 90%;
+        margin: 0 auto;
     }
 
-    #competences ul li{
     
     }
     
 }
 
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    /*ipad pro 12 pouces*/
-    .container{
-        
-    }
-    #competences ul li{
-    width: 30%;
-    }
-}
 
-@media only screen and (max-width : 979px) {
-    .container{
-        
-    }
-
-    footer .container div{
-    
-    }
-
-
-}
 
 @media only screen and (max-width : 767px) {
 
     /*mobile paysage*/
 
-    .container{
+    {
        
     }
 
@@ -61,9 +49,3 @@
 
 }
 
-@media only screen and (max-width : 400px) {
-    .container{
-        
-    }
-
-}
