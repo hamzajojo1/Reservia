@@ -51,9 +51,13 @@ table {
 body{
 	font-family: 'Raleway', sans-serif;
 }
-header,.activities,{
-	width: 1340px;
+/* .container{
+	width: ;
 	margin: 0 auto;
+} */
+header,.activities{
+	margin-left: 35px;
+	margin-right: 35px;
 }
 ul{
 	list-style: none;
@@ -89,10 +93,12 @@ h3{
 	display: flex;
 	list-style: none;
 }
-.nav-link,
-.subscribe-link {
+.nav-link{
 	padding: 2rem 3rem 0 3rem;
 	border-top: 2px solid transparent;
+}
+.register-link{
+	color: #0065fc;
 }
 .nav-link:hover {
 	color: #0065fc;
@@ -142,6 +148,12 @@ h3{
 	border-radius: 0 1rem 1rem 0;
 	background-color: #0065fc;
 	color: white;
+}
+.search-icon{
+	display: none;
+}
+.button,input{
+	font-family: 'Raleway', sans-serif;
 }
 /*filtres*/
 .filters {
@@ -339,6 +351,9 @@ box-shadow: 0px 0px 1px #a1a1a1;
 }
 .item2{
 	margin-bottom: 42px;
+}
+.item4{
+	margin-bottom: 80px;
 }
 .card-img-1{
 	border-radius: 15px 15px 0 0;
