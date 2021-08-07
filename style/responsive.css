@@ -35,14 +35,50 @@
     
 
 }
+/*mobile portrait*/
+@media only screen and (max-width : 480px){
+body{
+    margin: 0;
+}
+footer{
+    flex-direction: column;
+}
+input{
+    width: 230px;
+}
+.search-button{
+    display: none;
+}
+.up{
+    position: absolute;
+    top: 48px;
+    right: 22px;
+}
+.nav-link{
+    padding-right: 66px;
+    padding-left: 40px;
+}
+.popularity{
+    width: 100%;
+}
+.popularity-card-item{
+    width: 90%;
+}
+.activities-card-item{
+    margin: 0;
+}
+.container-double-vignettes{
+    width: 100%;
+}
+.activities-card-item{
+    width: 90%;
+}
+.activities img{
+    width: 100%;
+}
 
-@media only screen and (max-width : 480px) {
-
-    /*mobile portrait*/
-
-        .container{
     
-        }
+
 
        
      
