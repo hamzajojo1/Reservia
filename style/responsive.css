@@ -54,14 +54,29 @@ input{
     top: 48px;
     right: 22px;
 }
-.nav-link{
-    padding-right: 66px;
-    padding-left: 40px;
+header{
+    margin: 0px 10px 0px 10px;
+}
+nav ul{
+   width: 100%;
+}
+.list-lien{
+    width: 50%;
+    text-align: center;
+}
+.accomodation-container{
+    flex-direction: column-reverse;
+}
+.accomodation-marseille{
+    background: none;
 }
 .popularity{
     width: 100%;
+    margin-bottom: 40px;
+    border-radius: 0;
 }
 .popularity-card-item{
+    display: flex;
     width: 90%;
 }
 .activities-card-item{
@@ -76,7 +91,13 @@ input{
 .activities img{
     width: 100%;
 }
-
+.search-icon{
+    display:inline-block;
+}
+.size p{
+    font-size: 14px;
+    line-height: 17px;
+}
     
 
 
