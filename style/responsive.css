@@ -70,6 +70,9 @@ nav ul{
 .accomodation-marseille{
     background: none;
 }
+.show-more{
+    margin-left: 0;
+}
 .popularity{
     width: 100%;
     margin-bottom: 40px;
@@ -79,20 +82,51 @@ nav ul{
     display: flex;
     width: 90%;
 }
-.activities-card-item{
-    margin: 0;
+.accomodation-card-item{
+    width: 97%;
+}
+.accomodation-card-item img{
+    width: 100%;
 }
 .container-double-vignettes{
     width: 100%;
 }
 .activities-card-item{
-    width: 90%;
+    width: 97%;
+    margin: auto;
+    height: 192px;
+}
+.item2{
+    margin: 0;
+}
+.activities-title{
+    margin-left: 20px;
+}
+.activities{
+    margin: 0;
+}
+.activities a{
+    width: 97%;
 }
 .activities img{
     width: 100%;
+    height: 142px;
 }
 .search-icon{
     display:inline-block;
+}
+.search-form .fa-search{
+    background: #0065fc;
+    color: #fff;
+    border-radius: 1rem;
+}
+.filters .economic,.familial{
+    margin-right: 5px;
+    padding-right: 1rem;
+    margin-bottom: 15px;
+}
+.filters .romantic{
+    margin-bottom: 15px;
 }
 .size p{
     font-size: 14px;
