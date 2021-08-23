@@ -50,13 +50,12 @@
         margin: 0;
     }
 
-     h1{
-        font-size: 15.5px;
-        color: #0d356d;
-    }
-
     p,a{
         font-size: 13px;
+    }
+
+    h1{
+        font-size: 14px;
     }
     h2{
         font-size: 14.5px;
@@ -64,24 +63,11 @@
     h3{
         font-size: 13.5px;
     }
-    .register-link{
-        color: #e34d05;
-    }
-    .search-form button{
-        background-color: gray;
-    }
-    .fa-star--activate{
-        color: #fc5100;
-    }
-    .accomodation-marseille,.popularity,.footer{
-        background-color: #dfeedc;
-    }
+    
     .filters .filter-link{
         margin-right: 0;
     }
-    .filter-link i{
-       color: #631251;
-    }
+ 
     .filters .economic{
         margin-right: 5px;
         margin-bottom: 5px;
@@ -100,7 +86,9 @@
         padding-bottom: 10px;
     }
     .activities-cards{
-        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     .activities .activities-title{
         margin-left: 0px;
@@ -111,13 +99,13 @@
     .activities .item-respo,.item4{
         margin-bottom: 40px;
     }
-
-    
+ 
 }
 
 
 /*mobile portrait*/
 @media only screen and (max-width : 480px){
+
 body{
     margin: 0;
 }
@@ -184,7 +172,6 @@ nav ul{
 }
 
 
-
 .activities-title{
     margin-left: 20px;
 }
@@ -193,6 +180,7 @@ nav ul{
 }
 .activities-cards{
     justify-content: center;
+    margin-left: 0px;
 }
 .activities a{
     width: 97%;
@@ -230,11 +218,7 @@ nav ul{
 .accomodation-card-item{
     width: 97%;
 }
-    
-
-
-       
-     
+            
 
 }
 
