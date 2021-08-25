@@ -245,7 +245,7 @@ h3{
 	box-shadow: 0px 0px 10px #a1a1a1;
 	background: white;
 	border-radius: 15px;
-	width: 250px;
+	width: 27%;
 	height: 210px;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 40px;
@@ -253,7 +253,7 @@ h3{
 .accomodation-card-item img{
 	border-radius: 15px 15px 0 0;
 	height: 115px;
-	width: 248px;
+	width: 99%;
 }
 .accomodation-card-item-sub-content{
 	margin-top: 15px;
@@ -305,8 +305,7 @@ h3{
 	box-shadow: 0px 0px 10px var(--shadow);
 	border-radius: 15px;
 	background: white;
-	
-	width: 345px;
+	width: 84%;
 	padding: 5px;
 	margin: 0 auto;
 	margin-bottom: 40px;
